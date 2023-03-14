@@ -1,7 +1,29 @@
 body {
-    background-color: rgba(56, 56, 56, 0.912);
+    height: 100vh;
+    background-image: url(/public/bg-train.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: white;
     display: flex;
     justify-content: center;
 
+    .ticket {
+        h1 {
+            color: rgb(215, 74, 74);
+            text-align: center;
+        }
+        border: 1px solid white;
+        background-color: rgba(138, 175, 231, 0.74);
+        width: 500px;
+        padding: 10px;
+        border-radius: 50px;
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        > div {
+            width: 100%;
+            text-align: center;
+        }
+    }
 }
