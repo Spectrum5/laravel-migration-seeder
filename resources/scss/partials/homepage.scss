@@ -5,24 +5,28 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    display: flex;
-    justify-content: center;
+}
 
-    .ticket {
-        h1 {
-            color: rgb(215, 74, 74);
-            text-align: center;
-        }
-        border: 1px solid white;
-        background-color: rgba(138, 175, 231, 0.74);
-        width: 500px;
-        padding: 10px;
-        border-radius: 50px;
-        margin: 20px 0px;
-        
-        > div {
-            width: 100%;
-            text-align: center;
-        }
+.ticket {
+    h2 {
+        color: rgb(215, 74, 74);
+        text-align: center;
     }
+
+    border: 1px solid white;
+    background-color: rgba(138, 175, 231, 0.74);
+    width: 500px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px 0px;
+
+    >div {
+        text-align: center;
+    }
+}
+
+.mx-auto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
